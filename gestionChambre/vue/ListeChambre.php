@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" href="cool.css">
 </head>
 <body>
 <!-- 
@@ -23,8 +24,8 @@
           Etudiant
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Lister Etudiant</a>
-          <a class="dropdown-item" href="#">Ajouter Etudiant</a>
+          <a class="dropdown-item" href="ListeEtudiant.php">Lister Etudiant</a>
+          <a class="dropdown-item" href="index.php">Ajouter Etudiant</a>
          
       </li>
       <li class="nav-item dropdown">
@@ -32,8 +33,8 @@
           Chambre
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Liste Chambre</a>
-          <a class="dropdown-item" href="#">Ajouter une Chambre</a>
+          <a class="dropdown-item" href="ListeChambre.php">Liste Chambre</a>
+          <a class="dropdown-item" href="EnregistrerChambre.php">Ajouter une Chambre</a>
         
       </li>
      
@@ -42,52 +43,20 @@
 </nav>  
 
 
-<div class="container d-flex align-items-center justify-content-center mt-5">
+<div class="container border p-4 bg-info col-md-6 d-flex align-items-center justify-content-center mt-5">
 
-<form class="border p-4 bg-info" >
+<form class="" >
 
 
-
+     <h1 class="text-center font-weight-bolder">Liste Chambre</h1>
   
 
 
 
-  <div class="form-row ">
-  
    
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Matricule de l'etudiant</label>
-      <input type="text" class="form-control" id="inputPassword4">
-    </div>
-  </div>
-
-
-  <div class="form-row">
+    <button style="margin-left:150px" type="submit" class="btn btn-light ml-2 ">Suivante</button>
   
-    <div class="form-group col-md-6">
-    
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Telephone</label>
-      <input type="text" class="form-control" id="inputPassword4">
-    </div>
-  </div>
-
-  <div class="form-group col-md-5 ml-1">
-    <label for="inputAddress">Date de Naissance</label>
-    <input type="date" id="start" value="2018-07-22" min="1978-01-01" max="2020-12-31" name="trip-start" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group col-md-5 ml-1">
-      <label for="inputPassword4">Bourse</label>
-      <input type="text" class="form-control" id="inputPassword4">
-    </div>
- 
-   
-    <button style="margin-left:150px" type="submit" class="btn btn-light ml-auto col-md-6">Enregistrer</button>
   
-  </div>
 
 </form>
 </div>
